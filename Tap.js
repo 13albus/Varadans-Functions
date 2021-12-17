@@ -1,4 +1,4 @@
-const tap = fn=>x=>{
-  fn(x)
-  return x
-}
+const tap = (fn) => (x) => {
+  fn(x);
+  return x;
+};
